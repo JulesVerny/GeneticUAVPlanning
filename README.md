@@ -1,4 +1,4 @@
-# UAV Planning using Genetic Algorithms and Simulated Annealing Methods#
+# UAV Planning using Genetic Algorithms and Simulated Annealing Method s#
 
 ## An Application of Travelling Salesman Problem ##
 The use of two methods  to solve the Travelling salesman in the conext of UAV Planning 
@@ -10,14 +10,14 @@ This set of Files simulates the planning of Unmanned Air Vehicles (UAVs) to insp
 ![picture alt](https://github.com/JulesVerny/GeneticUAVPlanning/blob/master/Typical_Route.png "UAV Planning")
 
 
-###TheGenetic Algorithm method:###
+### TheGenetic Algorithm method: ###
 Solving the Travelling Salesman Problem (TSP) using Genetic Algorithms. This is through the use of the mlrose package developed by Genevieve Hayes.
 
 https://towardsdatascience.com/solving-travelling-salesperson-problems-with-python-5de7e883d847
 
 The mlrose package takes a set of coordinates and responds with an proposed sequence order. The mlrose package uses Genetic Algorithm, and can take around 10 seconds to process through 200 iterations of populations.
 
-###Simulated Annealing :###
+### Simulated Annealing: ###
 The TSP can also be solved through a so called simulated annealing method. (And No I don't understand this method) The results seem pretty impressive for so little (involved code) Quick to execute and robust results so far.   Solving the Travelling Salesman Problem (TSP) through  simulated annealing (In ten Lines of Code !)
 
 https://ericphanson.com/blog/2016/the-traveling-salesman-and-10-lines-of-python/
@@ -62,7 +62,7 @@ The following files are required to run the UAV Simulation
 
 Press Escape in pygame window to halt the siumlation, at any time.
 
-### Main Python Package Dependencies ###
+### Main Python Package Dependencies: ###
 mlrose, pygame, flask, numpy, pandas,copy,  matplotlib, requests
 
 ### Acknowledgments: ###
